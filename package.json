@@ -4,6 +4,9 @@
   "description": "",
   "main": "server.js",
   "type": "module",
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
     "start": "node ./node_modules/nodemon/bin/nodemon.js ./bin/www.js",
     "devStart": "nodemon server.js",
@@ -28,7 +31,8 @@
     "express-session": "^1.17.3",
     "mongodb": "^4.11.0",
     "socket.io": "^4.5.3",
-    "socket.io-client": "^4.5.3"
+    "socket.io-client": "^4.5.3",
+    "vercel": "^28.4.14"
   },
   "devDependencies": {
     "eslint": "^8.26.0",
